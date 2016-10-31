@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color:lightgreen;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+html {
+	font: normal 16px sans-serif;
+	color: #333;
+	background-color: #f9f9f9;
+}
+
+
+header {
+	background-color: #805080;
+	box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+	padding: 20px 30px;
+	box-sizing: border-box;	
+}
+
+header .header-limiter {
+	max-width: 1250px;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Logo */
+
+header .header-limiter h1 {
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header .header-limiter h1 span {
+    color: #41b883;
+}
+
+/* The header links */
+
+header .header-limiter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+header .header-limiter nav{
+	line-height: 40px;
+}
+
+header .header-limiter nav a{
+    display: inline-block;
+    padding: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    opacity: 0.9;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 0px 25px;
+    background-color: #D6336A;
+}
+
+header .header-limiter nav a:hover{
+	opacity: 1;
+}
+
+header .header-limiter nav a.selected {
+	color: #608bd2;
+	pointer-events: none;
+	opacity: 1;
+}
+
